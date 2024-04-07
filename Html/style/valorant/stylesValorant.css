@@ -1,0 +1,27 @@
+/* styles.css */
+
+body {
+    background-image: url('valorant_wallpaper_1.jpg');
+    
+    background-position: center;
+    }
+  
+  .navbar {
+    justify-content: center;
+  }
+  
+  .container {
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .table {
+    color: rgb(14, 13, 13)0, 10, 10;
+  }
+  .navbar-container {
+    margin-top: 50px; /* Ajusta el margen superior para centrar la barra de navegación */
+    width: 100%;
+    text-align: center;
+  }
+  .custom-table {
+    background-color: #CCCCCC; /* Color gris para el fondo de la tabla */
+  }

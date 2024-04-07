@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Invocador</title>
+    <link rel="stylesheet" href="style/stylesInvocador.css">
+</head>
+<body class="f_vista_invocador">
+
+    <a href="Vista1.html">Volver</a>
+
+    <div class="container">
+        <h1 class="vista_invocador_h1">Buscar Invocador</h1>
+        <form id="searchForm" class="vista_invocador_form">
+            <label for="summonerName">Nombre del Invocador:</label>
+            <input type="text" id="summonerName" name="summonerName" required><br>
+
+            <label for="tagLine" class="vista_invocador_label">Tagline:</label>
+            <input type="text" id="tagLine" name="tagLine" required><br>
+
+            <label for="region">Región:</label>
+            <select id="server" name="region">
+                <option value="AMERICAS">AMERICAS</option>
+                <option value="EUROPE">EUROPA</option>
+                <option value="ASIA">ASIA</option>
+                <!-- Agrega más opciones según las regiones que necesites -->
+            </select><br>
+
+            <label for="execute_against">Select Region to Execute Against</label>
+            <select id= "region" name="execute_against" style="width: 200px">
+                <option value="BR1">BR1</option>
+                <option value="EUN1">EUN1</option>
+                <option value="EUW1">EUW1</option>
+                <option value="JP1">JP1</option>
+                <option value="KR">KR</option>
+                <option value="LA1">LA1</option>
+                <option value="LA2">LA2</option>
+                <option value="NA1">NA1</option>
+                <option value="OC1">OC1</option>
+                <option value="PH2">PH2</option>
+                <option value="RU">RU</option>
+                <option value="SG2">SG2</option>
+                <option value="TH2">TH2</option>
+                <option value="TR1">TR1</option>
+                <option value="TW2">TW2</option>
+                <option value="VN2">VN2</option>
+            </select><br>
+            
+            <button type="submit">Buscar Invocador</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
