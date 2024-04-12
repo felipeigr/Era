@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+  }
+  section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }

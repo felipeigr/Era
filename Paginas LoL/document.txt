@@ -1,0 +1,42 @@
+
+Nos hace falta:
+
+    1-Pagina principal: Objetos destacados general e informacion con ruleta(hecho);
+
+
+    2-Apartado LoL: Redirecciona a la tienda Exclusiva de League Of Legends(Ropa, figuras, etc)(hecho);
+
+
+    3-Apartado Valorant: Redirecciona a la tienda exclusiva de Valorant(Objetos etc)(hecho);
+
+
+    4-Apartado carrito: Confirmacion de compra donde se muestran los objetos y confirmar compra con login;
+
+
+tenemos:
+carusel
+card
+navbar
+falta:
+modal
+pop overs
+
+
+
+A futuro:
+    1- importar las imagenes desde la base de datos a la pagina con sql;
+    2- realizar el login, con validacion a sql;
+    3- creacion de comprobantes de compra en las tabla sql
+
+tareas para mañana:
+ mostrar los productos destacados con un carusel(precio y descripcion)
+ mostrar productos generales con sus precios y descripcion(objetos, peluches,figuras)
+
+
+
+
+funcion:
+comprar productos oficiales de la tienda de lol y confiable en pesos chilenos con delivery en 48 horas
+la moneda dentro del juego 
+
+-ERS definicion de la problematica, funcion del producto
