@@ -40,3 +40,9 @@ def carrito(request):
     productos = Producto.objects.all()  # Reutilizamos la lógica para obtener los productos
     context = {'productos': productos}
     return render(request, 'productos/carrito.html', context)
+
+
+def registro(request):
+    productos = Producto.objects.all()  # Reutilizamos la lógica para obtener los productos
+    context = {'productos': productos}
+    return render(request, 'productos/registro.html', context)
