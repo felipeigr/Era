@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(150, 150, 150);
+}
+.detalle-compra {
+    margin-bottom: 25px;
+}
+.card {
+    width: 75%; /* Ajusta el ancho de la tarjeta */
+    max-width: 220px; /* Ajusta el tamaño máximo de la tarjeta */
+    margin: auto; /* Centra la tarjeta dentro de la columna */
+}
+.card img {
+    height: 150px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área */
+}
+.cardContainer {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    margin: 50px auto 0; /* Margen superior para centrarlo debajo del navbar */
+    margin-bottom: 50px;
+    overflow: hidden; /* Para recortar la imagen que exceda los límites del contenedor */
+}
+
+h1{
+    text-align: center;
+}   
+
+.btn-custom {
+    background-color: #01037a; /* Color de fondo personalizado */
+    color: rgb(0, 0, 0); /* Color del texto */
+}
